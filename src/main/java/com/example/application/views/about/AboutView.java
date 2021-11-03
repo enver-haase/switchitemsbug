@@ -25,6 +25,7 @@ public class AboutView extends VerticalLayout {
 
 
         final Select<String> stringSelect = new Select<>();
+        stringSelect.getElement().getThemeList().add("grid-pro-editor");
         Vector<String>values = new Vector<>();
         values.add("eins");
         values.add("zwei");

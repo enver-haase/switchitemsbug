@@ -1,0 +1,9 @@
+:host([theme~="grid-pro-editor"]) {
+  padding: 0;
+  height: 100%;
+  --lumo-text-field-size: 100%;
+}
+
+:host([theme~="grid-pro-editor"]) [part="input-field"] {
+  flex-grow: 1;
+}
